@@ -3,7 +3,7 @@ module.exports = {
 
   postsPerPage: 10, // Number of posts shown on paginated pages (changes this requires sometimes to delete the cache)
 
-  siteTitleMeta: "Built with Draftbox", // This allows an alternative site title for meta data for pages.
+  siteTitleMeta: "name of site", // This allows an alternative site title for meta data for pages.
   siteDescriptionMeta:
     "Lightning fast, secure front-end for your WordPress or Ghost blog, without coding", // This allows an alternative site description for meta data for pages.
 
@@ -24,7 +24,7 @@ module.exports = {
   header: {
     navigation: [
       {
-        label: "Home",
+        label: "Homepage",
         url: "https://wp-balsa-preview.draftbox.co/",
       },
       {
@@ -34,7 +34,7 @@ module.exports = {
     ],
   },
   footer: {
-    copyright: "Built with Draftbox",
+    copyright: "Built with michal",
     navigation: [
       {
         label: "Home",
