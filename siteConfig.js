@@ -118,7 +118,7 @@ module.exports = {
       },
       {
         varName: "--sans-font",
-        value: `"Montserrat"`,
+        value: `"assistant"`,
       },
       {
         varName: "--sans-font-normal",
@@ -140,10 +140,10 @@ module.exports = {
         varName: "--serif-font",
         value: `Merriweather`,
       },
-      { varName: "assistant", value: `300` },
-      { varName: "assistant", value: `400` },
-      { varName: "assistant", value: `400` },
-      { varName: "assistant-bold", value: `700` },
+      { varName: "--serif-font-light", value: `300` },
+      { varName: "--serif-font-normal", value: `400` },
+      { varName: "--serif-font-medium", value: `400` },
+      { varName: "--serif-font-bold", value: `700` },
     ],
     fonts: [
       {
