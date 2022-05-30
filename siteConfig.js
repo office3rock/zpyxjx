@@ -1,5 +1,5 @@
 module.exports = {
-  siteUrl: "https://buzz-tv.co.il", // Site domain. Do not include a trailing slash!
+  siteUrl: "https://wp-balsa-preview.draftbox.co", // Site domain. Do not include a trailing slash!
 
   postsPerPage: 10, // Number of posts shown on paginated pages (changes this requires sometimes to delete the cache)
 
@@ -17,9 +17,9 @@ module.exports = {
   apiUrl: "https://wordpress.theasdfghjkl.com",
   subscribeWidget: {
     visible: true,
-    title: "יצירת קשר",
-    helpText: "הישארו מעודכנים",
-    successMessage: "תודה על ההרשמה",
+    title: "buzz-tv",
+    helpText: "Get the latest posts delivered right to your inbox.",
+    successMessage: "Thanks for subscribing to Draftbox.",
   },
   header: {
     navigation: [
@@ -72,16 +72,16 @@ module.exports = {
     whatsapp: "",
   },
   contactWidget: {
-    title: "יצירת קשר",
-    successMessage: "ניצור איתך קשר בהקדם",
+    title: "Contact Built with Draftbox",
+    successMessage: "We’ll get in touch with you soon.",
   },
   metadata: {
-    title: "buzz-tv",
+    title: "Built with Draftbox",
     description:
       "Lightning fast, secure front-end for your WordPress or Ghost blog, without coding. Draftbox is a new-age blogging platform for everyone, built on Gatsby.",
   },
   twitterCard: {
-    title: "buzz-tv",
+    title: "Built with Draftbox",
     description:
       "Lightning fast, secure front-end for your WordPress or Ghost blog, without coding. Draftbox is a new-age blogging platform for everyone, built on Gatsby.",
     imageUrl: "twitterImage.png",
@@ -94,10 +94,10 @@ module.exports = {
     imageUrl: "facebookImage.png",
     appId: "2391725224459953",
   },
-  siteTitle: "Built with Draftbox",
+  siteTitle: "buzz-tv",
   siteDescription:
     "Lightning fast, secure front-end for your WordPress or Ghost blog, without coding.",
-  language: "en",
+  language: "he",
   logoUrl: "logo.png",
   iconUrl: "favicon.png",
   coverUrl: "cover.jpg",
