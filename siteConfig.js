@@ -1,44 +1,44 @@
 module.exports = {
-  siteUrl: "https://wp-balsa-preview.draftbox.co", // Site domain. Do not include a trailing slash!
+  siteUrl: "https://buzz-tv.co.il", // Site domain. Do not include a trailing slash!
 
   postsPerPage: 10, // Number of posts shown on paginated pages (changes this requires sometimes to delete the cache)
 
-  siteTitleMeta: "name of site", // This allows an alternative site title for meta data for pages.
+  siteTitleMeta: "buzz-tv", // This allows an alternative site title for meta data for pages.
   siteDescriptionMeta:
     "Lightning fast, secure front-end for your WordPress or Ghost blog, without coding", // This allows an alternative site description for meta data for pages.
 
   shareImageWidth: 1000, // Change to the width of your default share image
   shareImageHeight: 523, // Change to the height of your default share image
 
-  shortTitle: "Built with Draftbox", // Used for App manifest e.g. Mobile Home Screen
+  shortTitle: "buzz-tv", // Used for App manifest e.g. Mobile Home Screen
   siteIcon: "favicon.png", // Logo in /static dir used for SEO, RSS, and App manifest
   backgroundColor: "#e9e9e9", // Used for Offline Manifest
   themeColor: "#15171A", // Used for Offline Manifest
   apiUrl: "https://wordpress.theasdfghjkl.com",
   subscribeWidget: {
     visible: true,
-    title: "Subscribe to Draftbox",
-    helpText: "Get the latest posts delivered right to your inbox.",
-    successMessage: "Thanks for subscribing to Draftbox.",
+    title: "יצירת קשר",
+    helpText: "הישארו מעודכנים",
+    successMessage: "תודה על ההרשמה",
   },
   header: {
     navigation: [
       {
-        label: "Homepage",
-        url: "https://wp-balsa-preview.draftbox.co/",
+        label: "דף הבית",
+        url: "https://buzz-tv.co.il/",
       },
       {
         label: "Contact",
-        url: "https://wp-balsa-preview.draftbox.co/contact",
+        url: "https://buzz-tv.co.il/contact",
       },
     ],
   },
   footer: {
-    copyright: "Built with michal",
+    copyright: "כל הזכויות שמורות @ 2022",
     navigation: [
       {
-        label: "Home",
-        url: "https://wp-balsa-preview.draftbox.co/",
+        label: "דף הבית",
+        url: "https://buzz-tv.co.il/",
       },
       {
         label: "Sitemap",
@@ -72,16 +72,16 @@ module.exports = {
     whatsapp: "",
   },
   contactWidget: {
-    title: "Contact Built with Draftbox",
-    successMessage: "We’ll get in touch with you soon.",
+    title: "יצירת קשר",
+    successMessage: "ניצור איתך קשר בהקדם",
   },
   metadata: {
-    title: "Built with Draftbox",
+    title: "buzz-tv",
     description:
       "Lightning fast, secure front-end for your WordPress or Ghost blog, without coding. Draftbox is a new-age blogging platform for everyone, built on Gatsby.",
   },
   twitterCard: {
-    title: "Built with Draftbox",
+    title: "buzz-tv",
     description:
       "Lightning fast, secure front-end for your WordPress or Ghost blog, without coding. Draftbox is a new-age blogging platform for everyone, built on Gatsby.",
     imageUrl: "twitterImage.png",
@@ -140,14 +140,14 @@ module.exports = {
         varName: "--serif-font",
         value: `Merriweather`,
       },
-      { varName: "--serif-font-light", value: `300` },
-      { varName: "--serif-font-normal", value: `400` },
-      { varName: "--serif-font-medium", value: `400` },
-      { varName: "--serif-font-bold", value: `700` },
+      { varName: "assistant", value: `300` },
+      { varName: "assistant", value: `400` },
+      { varName: "assistant", value: `400` },
+      { varName: "assistant-bold", value: `700` },
     ],
     fonts: [
       {
-        family: "Montserrat",
+        family: "assistant",
         variants: ["400", "500", "600", "700"],
         //subsets: ['latin']
         //text: 'Hello'
@@ -155,7 +155,7 @@ module.exports = {
         strategy: "selfHosted", // 'base64' || 'cdn'
       },
       {
-        family: "Merriweather",
+        family: "assistant",
         variants: ["300", "400", "700"],
         //subsets: ['latin']
         //text: 'Hello'
