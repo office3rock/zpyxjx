@@ -118,7 +118,7 @@ module.exports = {
       },
       {
         varName: "--sans-font",
-        value: `"assistant"`,
+        value: `"Montserrat"`,
       },
       {
         varName: "--sans-font-normal",
@@ -147,7 +147,7 @@ module.exports = {
     ],
     fonts: [
       {
-        family: "assistant",
+        family: "Montserrat",
         variants: ["400", "500", "600", "700"],
         //subsets: ['latin']
         //text: 'Hello'
@@ -155,7 +155,7 @@ module.exports = {
         strategy: "selfHosted", // 'base64' || 'cdn'
       },
       {
-        family: "assistant",
+        family: "Merriweather",
         variants: ["300", "400", "700"],
         //subsets: ['latin']
         //text: 'Hello'
