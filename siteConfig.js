@@ -1,16 +1,16 @@
 module.exports = {
   siteUrl: "https://buzz-tv.co.il", // Site domain. Do not include a trailing slash!
 
-  postsPerPage: 10, // Number of posts shown on paginated pages (changes this requires sometimes to delete the cache)
+  postsPerPage: 12, // Number of posts shown on paginated pages (changes this requires sometimes to delete the cache)
 
   siteTitleMeta: "buzz-tv", // This allows an alternative site title for meta data for pages.
   siteDescriptionMeta:
-    "Lightning fast, secure front-end for your WordPress or Ghost blog, without coding", // This allows an alternative site description for meta data for pages.
+    "buzz-tv11", // This allows an alternative site description for meta data for pages.
 
   shareImageWidth: 1000, // Change to the width of your default share image
   shareImageHeight: 523, // Change to the height of your default share image
 
-  shortTitle: "buzz-tv", // Used for App manifest e.g. Mobile Home Screen
+  shortTitle: "buzz-tv11", // Used for App manifest e.g. Mobile Home Screen
   siteIcon: "favicon.png", // Logo in /static dir used for SEO, RSS, and App manifest
   backgroundColor: "#e9e9e9", // Used for Offline Manifest
   themeColor: "#15171A", // Used for Offline Manifest
@@ -18,8 +18,8 @@ module.exports = {
   subscribeWidget: {
     visible: true,
     title: "buzz-tv",
-    helpText: "Get the latest posts delivered right to your inbox.",
-    successMessage: "Thanks for subscribing to Draftbox.",
+    helpText: "הישארו מעודכנים",
+    successMessage: "תודה ההודעה נשלחה בהצלחה",
   },
   header: {
     navigation: [
@@ -28,13 +28,13 @@ module.exports = {
         url: "https://buzz-tv.co.il/",
       },
       {
-        label: "Contact",
+        label: "יצירת קשר",
         url: "https://buzz-tv.co.il/contact",
       },
     ],
   },
   footer: {
-    copyright: "כל הזכויות שמורות @ 2022",
+    copyright: "כל הזכויות שמורות ",
     navigation: [
       {
         label: "דף הבית",
@@ -42,24 +42,24 @@ module.exports = {
       },
       {
         label: "Sitemap",
-        url: "https://wp-balsa-preview.draftbox.co/sitemap.xml",
+        url: "https://buzz-tv.co.il/sitemap.xml",
       },
       {
         label: "RSS",
-        url: "https://wp-balsa-preview.draftbox.co/rss.xml",
+        url: "https://buzz-tv.co.il/rss.xml",
       },
       {
-        label: "Contact",
-        url: "https://wp-balsa-preview.draftbox.co/contact",
+        label: "יצירת קשר",
+        url: "https://buzz-tv.co.il/contact",
       },
       {
         label: "External Link",
-        url: "https://spectrum.chat/gatsby-js/themes?tab=posts",
+        url: "",
       },
     ],
   },
   socialLinks: {
-    twitter: "https://twitter.com/draftboxhq",
+    twitter: "#",
     facebook: "https://facebook.com/",
     instagram: "https://www.instagram.com/",
     linkedin: "https://linkedin.com/",
@@ -76,9 +76,9 @@ module.exports = {
     successMessage: "We’ll get in touch with you soon.",
   },
   metadata: {
-    title: "Built with Draftbox",
+    title: "buzz-tv",
     description:
-      "Lightning fast, secure front-end for your WordPress or Ghost blog, without coding. Draftbox is a new-age blogging platform for everyone, built on Gatsby.",
+      "buzz-tv55",
   },
   twitterCard: {
     title: "Built with Draftbox",
@@ -96,7 +96,7 @@ module.exports = {
   },
   siteTitle: "buzz-tv",
   siteDescription:
-    "Lightning fast, secure front-end for your WordPress or Ghost blog, without coding.",
+    "buzz-tv66",
   language: "he",
   logoUrl: "logo.png",
   iconUrl: "favicon.png",
@@ -153,6 +153,14 @@ module.exports = {
         //text: 'Hello'
         fontDisplay: "swap",
         strategy: "selfHosted", // 'base64' || 'cdn'
+      },
+            {
+        family: "Assistant",
+        variants: ["400", "500", "600", "700"],
+        //subsets: ['latin']
+        //text: 'Hello'
+        //fontDisplay: "swap",
+        //strategy: "selfHosted", // 'base64' || 'cdn'
       },
       {
         family: "Merriweather",
