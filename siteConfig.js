@@ -140,14 +140,14 @@ module.exports = {
         varName: "--serif-font",
         value: `Assistant`,
       },
-      { varName: "--serif-font-light", value: `300` },
+      { varName: "--serif-font-light", value: `400` },
       { varName: "--serif-font-normal", value: `400` },
       { varName: "--serif-font-medium", value: `400` },
       { varName: "--serif-font-bold", value: `700` },
     ],
     fonts: [
       {
-        family: "Montserrat",
+        family: "Assistant",
         variants: ["400", "500", "600", "700"],
         //subsets: ['latin']
         //text: 'Hello'
@@ -163,7 +163,7 @@ module.exports = {
         //strategy: "selfHosted", // 'base64' || 'cdn'
       },
       {
-        family: "Merriweather",
+        family: "Assistant",
         variants: ["300", "400", "700"],
         //subsets: ['latin']
         //text: 'Hello'
