@@ -118,7 +118,7 @@ module.exports = {
       },
       {
         varName: "--sans-font",
-        value: `"Montserrat"`,
+        value: `"Assistant"`,
       },
       {
         varName: "--sans-font-normal",
