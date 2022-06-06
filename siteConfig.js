@@ -29,7 +29,7 @@ module.exports = {
       },
       {
         label: "יצירת קשר",
-        url: "https://buzz-tv.co.il/contact",
+        url: "https://buzz-tv.co.il/contact1",
       },
     ],
   },
@@ -47,7 +47,7 @@ module.exports = {
       
       {
         label: "יצירת קשר",
-        url: "https://buzz-tv.co.il/contact",
+        url: "https://buzz-tv.co.il/contact1",
       },
      
     ],
