@@ -11,7 +11,7 @@ module.exports = {
   shareImageHeight: 523, // Change to the height of your default share image
 
   shortTitle: "buzz-tv11", // Used for App manifest e.g. Mobile Home Screen
-  //siteIcon: "favicon.png", // Logo in /static dir used for SEO, RSS, and App manifest
+  siteIcon: "favicon.png", // Logo in /static dir used for SEO, RSS, and App manifest
   backgroundColor: "#e9e9e9", // Used for Offline Manifest
   themeColor: "#15171A", // Used for Offline Manifest
   apiUrl: "https://wordpress.theasdfghjkl.com",
@@ -62,7 +62,7 @@ module.exports = {
     twitter: "",
     facebook: "",
     instagram: "",
-    linkedin: "h",
+    linkedin: "",
     github: "",
     pinterest: "",
     youtube: "",
@@ -72,8 +72,8 @@ module.exports = {
     whatsapp: "",
   },
   contactWidget: {
-    title: "יצירת קשר",
-    successMessage: "תודה על הפנייה",
+    title: "Contact Built with Draftbox",
+    successMessage: "We’ll get in touch with you soon.",
   },
   metadata: {
     title: "buzz-tv",
@@ -81,16 +81,16 @@ module.exports = {
       "buzz-tv55",
   },
   twitterCard: {
-    title: "",
+    title: "Built with Draftbox",
     description:
-      "",
+      "Lightning fast, secure front-end for your WordPress or Ghost blog, without coding. Draftbox is a new-age blogging platform for everyone, built on Gatsby.",
     imageUrl: "twitterImage.png",
     username: "@DraftboxHQ",
   },
   facebookCard: {
-    title: "",
+    title: "Built with Draftbox",
     description:
-      "",
+      "Lightning fast, secure front-end for your WordPress or Ghost blog, without coding. Draftbox is a new-age blogging platform for everyone, built on Gatsby.",
     imageUrl: "facebookImage.png",
     appId: "2391725224459953",
   },
@@ -98,10 +98,10 @@ module.exports = {
   siteDescription:
     "buzz-tv66",
   language: "he",
-  //logoUrl: "logo.png",
-  //iconUrl: "favicon.png",
+  logoUrl: "logo.png",
+  iconUrl: "favicon.png",
   coverUrl: "cover.jpg",
-  //alternateLogoUrl: "logo.png",
+  alternateLogoUrl: "logo.png",
   themeConfig: {
     variables: [
       {
