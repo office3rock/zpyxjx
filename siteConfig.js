@@ -97,48 +97,7 @@ module.exports = {
   coverUrl: "cover.jpg",
   alternateLogoUrl: "logo.png",
   themeConfig: {
-    variables: [
-      {
-        varName: "--primary-color",
-        value: `#2b6cb0`,
-      },
-      {
-        varName: "--primary-color-active",
-        value: `#2a4365`,
-      },
-      {
-        varName: "--primary-color-light",
-        value: `#bee3f8`,
-      },
-      {
-        varName: "--sans-font",
-        value: `"Assistant"`,
-      },
-      {
-        varName: "--sans-font-normal",
-        value: `400`,
-      },
-      {
-        varName: "--sans-font-medium",
-        value: `500`,
-      },
-      {
-        varName: "--sans-font-semibold",
-        value: `600`,
-      },
-      {
-        varName: "--sans-font-bold",
-        value: `700`,
-      },
-      {
-        varName: "--serif-font",
-        value: `Assistant`,
-      },
-      { varName: "--serif-font-light", value: `400` },
-      { varName: "--serif-font-normal", value: `400` },
-      { varName: "--serif-font-medium", value: `400` },
-      { varName: "--serif-font-bold", value: `700` },
-    ],
+  
     fonts: [
       {
         family: "Assistant",
