@@ -97,7 +97,7 @@ module.exports = {
   coverUrl: "cover.jpg",
   alternateLogoUrl: "logo.png",
   themeConfig: {
-  
+
     fonts: [
       {
         family: "Assistant",
