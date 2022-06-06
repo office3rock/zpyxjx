@@ -44,18 +44,12 @@ module.exports = {
         label: "Sitemap",
         url: "https://buzz-tv.co.il/sitemap.xml",
       },
-      {
-        label: "RSS",
-        url: "https://buzz-tv.co.il/rss.xml",
-      },
+      
       {
         label: "יצירת קשר",
         url: "https://buzz-tv.co.il/contact",
       },
-      {
-        label: "External Link",
-        url: "",
-      },
+     
     ],
   },
   socialLinks: {
@@ -81,9 +75,9 @@ module.exports = {
       "buzz-tv55",
   },
   twitterCard: {
-    title: "Built with Draftbox",
+    title: "",
     description:
-      "Lightning fast, secure front-end for your WordPress or Ghost blog, without coding. Draftbox is a new-age blogging platform for everyone, built on Gatsby.",
+      "",
     imageUrl: "twitterImage.png",
     username: "@DraftboxHQ",
   },
