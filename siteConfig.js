@@ -3,14 +3,14 @@ module.exports = {
 
   postsPerPage: 12, // Number of posts shown on paginated pages (changes this requires sometimes to delete the cache)
 
-  siteTitleMeta: "vilaneto", // This allows an alternative site title for meta data for pages.
+  siteTitleMeta: "צימרים בישראל וילה נטו", // This allows an alternative site title for meta data for pages.
   siteDescriptionMeta:
-    "lemexico", // This allows an alternative site description for meta data for pages.
+    "חופשות, טיולים, צימרים בישראל", // This allows an alternative site description for meta data for pages.
 
   shareImageWidth: 1000, // Change to the width of your default share image
   shareImageHeight: 523, // Change to the height of your default share image
 
-  shortTitle: "vilaneto", // Used for App manifest e.g. Mobile Home Screen
+  shortTitle: "צימרים בישראל וילה נטו", // Used for App manifest e.g. Mobile Home Screen
   siteIcon: "favicon.png", // Logo in /static dir used for SEO, RSS, and App manifest
   backgroundColor: "#e9e9e9", // Used for Offline Manifest
   themeColor: "#15171A", // Used for Offline Manifest
