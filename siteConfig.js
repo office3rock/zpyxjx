@@ -1,23 +1,23 @@
 module.exports = {
-  siteUrl: "https://lemexico.co.il", // Site domain. Do not include a trailing slash!
+  siteUrl: "https://vilaneto.co.il", // Site domain. Do not include a trailing slash!
 
   postsPerPage: 12, // Number of posts shown on paginated pages (changes this requires sometimes to delete the cache)
 
-  siteTitleMeta: "lemexico", // This allows an alternative site title for meta data for pages.
+  siteTitleMeta: "vilaneto", // This allows an alternative site title for meta data for pages.
   siteDescriptionMeta:
     "lemexico", // This allows an alternative site description for meta data for pages.
 
   shareImageWidth: 1000, // Change to the width of your default share image
   shareImageHeight: 523, // Change to the height of your default share image
 
-  shortTitle: "lemexico", // Used for App manifest e.g. Mobile Home Screen
+  shortTitle: "vilaneto", // Used for App manifest e.g. Mobile Home Screen
   siteIcon: "favicon.png", // Logo in /static dir used for SEO, RSS, and App manifest
   backgroundColor: "#e9e9e9", // Used for Offline Manifest
   themeColor: "#15171A", // Used for Offline Manifest
   apiUrl: "https://wordpress.theasdfghjkl.com",
   subscribeWidget: {
     visible: true,
-    title: "lemexico",
+    title: "vilaneto",
     helpText: "הישארו מעודכנים",
     successMessage: "תודה ההודעה נשלחה בהצלחה",
   },
@@ -25,11 +25,11 @@ module.exports = {
     navigation: [
       {
         label: "דף הבית",
-        url: "https://lemexico.co.il/",
+        url: "https://vilaneto.co.il/",
       },
       {
         label: "יצירת קשר",
-        url: "https://lemexico.co.il/contact",
+        url: "https://vilaneto.co.il/contact",
       },
     ],
   },
@@ -38,16 +38,16 @@ module.exports = {
     navigation: [
       {
         label: "דף הבית",
-        url: "https://lemexico.co.il/",
+        url: "https://vilaneto.co.il/",
       },
       {
         label: "Sitemap",
-        url: "https://lemexico.co.il/sitemap.xml",
+        url: "https://vilaneto.co.il/sitemap.xml",
       },
       
       {
         label: "יצירת קשר",
-        url: "https://lemexico.co.il/contact",
+        url: "https://vilaneto.co.il/contact",
       },
      
     ],
@@ -70,9 +70,9 @@ module.exports = {
     successMessage: "We’ll get in touch with you soon.",
   },
   metadata: {
-    title: "lemexico",
+    title: "vilaneto",
     description:
-      "lemexico",
+      "vilaneto",
   },
   twitterCard: {
     title: "",
@@ -82,15 +82,15 @@ module.exports = {
     username: "@DraftboxHQ",
   },
   facebookCard: {
-    title: "Built with Draftbox",
+    title: "vilaneto",
     description:
-      "Lightning fast, secure front-end for your WordPress or Ghost blog, without coding. Draftbox is a new-age blogging platform for everyone, built on Gatsby.",
+      "Lightning fast, 1t on Gatsby.",
     imageUrl: "facebookImage.png",
     appId: "2391725224459953",
   },
-  siteTitle: "lemexico",
+  siteTitle: "vilaneto",
   siteDescription:
-    "lemexico",
+    "vilaneto",
   language: "he",
   logoUrl: "",
   iconUrl: "",
