@@ -1,16 +1,16 @@
 module.exports = {
-  siteUrl: "https://vilaneto.co.il", // Site domain. Do not include a trailing slash!
+  siteUrl: "https://alankaler.co.il", // Site domain. Do not include a trailing slash!
 
   postsPerPage: 12, // Number of posts shown on paginated pages (changes this requires sometimes to delete the cache)
 
-  siteTitleMeta: "צימרים בישראל וילה נטו", // This allows an alternative site title for meta data for pages.
+  siteTitleMeta: "קידום אתרים", // This allows an alternative site title for meta data for pages.
   siteDescriptionMeta:
-    "חופשות, טיולים, צימרים בישראל", // This allows an alternative site description for meta data for pages.
+    "קידום אתרים ובניית קישורים", // This allows an alternative site description for meta data for pages.
 
   shareImageWidth: 1000, // Change to the width of your default share image
   shareImageHeight: 523, // Change to the height of your default share image
 
-  shortTitle: "צימרים בישראל וילה נטו", // Used for App manifest e.g. Mobile Home Screen
+  shortTitle: "קידום אתרים ובניית קישורים", // Used for App manifest e.g. Mobile Home Screen
   siteIcon: "favicon.png", // Logo in /static dir used for SEO, RSS, and App manifest
   backgroundColor: "#e9e9e9", // Used for Offline Manifest
   themeColor: "#15171A", // Used for Offline Manifest
@@ -25,11 +25,11 @@ module.exports = {
     navigation: [
       {
         label: "דף הבית",
-        url: "https://vilaneto.co.il/",
+        url: "https://alankaler.co.il/",
       },
       {
         label: "יצירת קשר",
-        url: "https://vilaneto.co.il/contact",
+        url: "https://alankaler.co.il/contact",
       },
     ],
   },
@@ -38,16 +38,16 @@ module.exports = {
     navigation: [
       {
         label: "דף הבית",
-        url: "https://vilaneto.co.il/",
+        url: "https://alankaler.co.il/",
       },
       {
         label: "Sitemap",
-        url: "https://vilaneto.co.il/sitemap.xml",
+        url: "https://alankaler.co.il/sitemap.xml",
       },
       
       {
         label: "יצירת קשר",
-        url: "https://vilaneto.co.il/contact",
+        url: "https://alankaler.co.il/contact",
       },
      
     ],
@@ -70,9 +70,9 @@ module.exports = {
     successMessage: "We’ll get in touch with you soon.",
   },
   metadata: {
-    title: "vilaneto",
+    title: "קידום אתרים אנלקלר",
     description:
-      "vilaneto",
+      "קידום אתרים ובניית קישורים",
   },
   twitterCard: {
     title: "",
@@ -88,9 +88,9 @@ module.exports = {
     imageUrl: "facebookImage.png",
     appId: "2391725224459953",
   },
-  siteTitle: "vilaneto",
+  siteTitle: "קידום אתרים אלנקלר",
   siteDescription:
-    "vilaneto",
+    "קידום אתרים ובניית קישורים",
   language: "he",
   logoUrl: "",
   iconUrl: "",
