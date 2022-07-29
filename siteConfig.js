@@ -70,9 +70,9 @@ module.exports = {
     successMessage: "We’ll get in touch with you soon.",
   },
   metadata: {
-    title: "קידום אתרים אנלקלר",
+    title: "alankaler",
     description:
-      "קידום אתרים ובניית קישורים",
+      "alankaler",
   },
   twitterCard: {
     title: "",
