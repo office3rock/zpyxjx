@@ -66,7 +66,7 @@ module.exports = {
     whatsapp: "",
   },
   contactWidget: {
-    title: "Contact Built with Draftbox",
+    title: "Contact Us",
     successMessage: "We’ll get in touch with you soon.",
   },
   metadata: {
@@ -88,9 +88,9 @@ module.exports = {
     imageUrl: "facebookImage.png",
     appId: "2391725224459953",
   },
-  siteTitle: "alankaler",
+  siteTitle: "utnupes",
   siteDescription:
-    "alankaler",
+    "utnupes",
   language: "he",
   logoUrl: "",
   iconUrl: "",
