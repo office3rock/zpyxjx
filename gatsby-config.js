@@ -35,6 +35,13 @@ console.log(wordpressConfig);
 
 let gatsbyPlugins = [
   {
+    resolve: `gatsby-source-filesystem`,
+    options: {
+      name: `placeholder`,
+      path: `${__dirname}/gatsby-config.js`,
+    },
+  },
+  {
     resolve: `@draftbox-co/gatsby-wordpress-balsa-theme`,
     options: {
       wordpressConfig,
