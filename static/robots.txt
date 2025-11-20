@@ -1,2 +1,11 @@
+# robots.txt for Gatsby site
 User-agent: *
 Allow: /
+
+# Disallow admin/private paths
+Disallow: /admin/
+Disallow: /wp-admin/
+Disallow: /wp-login.php
+
+# Sitemap location
+Sitemap: https://zpyxjx.com/sitemap.xml

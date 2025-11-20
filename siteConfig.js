@@ -14,7 +14,7 @@ module.exports = {
   siteIcon: "favicon.png", // Logo in /static dir used for SEO, RSS, and App manifest
   backgroundColor: "#e9e9e9", // Used for Offline Manifest
   themeColor: "#15171A", // Used for Offline Manifest
-  apiUrl: "https://wordpress.theasdfghjkl.com",
+  apiUrl: "https://reshet.jetdomains.co.il/zpyxjx",
   subscribeWidget: {
     visible: false,
     title: "zpyxjx.com",
@@ -84,7 +84,7 @@ module.exports = {
   facebookCard: {
     title: "zpyxjx.com",
     description:
-      "Lightning fast, 1t on Gatsby.",
+      "Lightning fast, built on Gatsby.",
     imageUrl: "facebookImage.png",
     appId: "2391725224459953",
   },
@@ -142,7 +142,11 @@ module.exports = {
     fonts: [
       {
         family: "Assistant",
-        variants: ["400", "500", "600", "700"],
+        variants: ["300", "400", "500", "600", "700"],
+        fontDisplay: "swap",
+        strategy: "selfHosted",
+      },
+    ],
         //subsets: ['latin']
         //text: 'Hello'
         fontDisplay: "swap",
