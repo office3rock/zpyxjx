@@ -147,5 +147,9 @@ module.exports = {
         strategy: "selfHosted",
       },
     ],
+        fontDisplay: "swap",
+        strategy: "selfHosted",
+      },
+    ],
   },
 };
